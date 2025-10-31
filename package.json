@@ -1,0 +1,17 @@
+{
+  "name": "p5-transformers-demo",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "p5": "^1.6.0",
+    "@xenova/transformers": "^2.6.0"
+  },
+  "devDependencies": {
+    "vite": "^5.0.0"
+  }
+}
