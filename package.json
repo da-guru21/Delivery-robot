@@ -5,13 +5,15 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "run-sim": "node ./scripts/run_simulation.js"
   },
   "dependencies": {
     "p5": "^1.6.0",
     "@xenova/transformers": "^2.6.0"
   },
   "devDependencies": {
-    "vite": "^5.0.0"
+    "vite": "^5.0.0",
+    "pg": "^8.11.0"
   }
 }
